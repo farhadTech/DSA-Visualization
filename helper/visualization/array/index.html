@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Array Visualization</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><button onclick="loadAlgorithm('adt')">Array ADT</button></li>
+            <li><button onclick="loadAlgorithm('linearSearch')">Linear Search</button></li>
+            <li><button onclick="loadAlgorithm('kadane')">Kadane's Algorithm</button></li>
+            <li><button onclick="loadAlgorithm('prefixSum')">Prefix Sum</button></li>
+            <li><button onclick="loadAlgorithm('slidingWindow')">Sliding Window</button></li>
+            <li><button onclick="loadAlgorithm('arrayPartition')">Array Partitioning</button></li>
+            <li><button onclick="loadAlgorithm('rainWater')">Rain Water Trapping</button></li>
+        </ul>
+    </nav>
+
+    <main id="algorithm-content">
+        <p>Select an algorithm to visualize its functionality.</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
